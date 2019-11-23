@@ -4,7 +4,9 @@
     "type": "project",
     "require": {
         "slim/slim": "4.x-dev",
-        "slim/psr7": "dev-master"
+        "slim/psr7": "dev-master",
+        "illuminate/database": "^7.0@dev",
+        "php-di/php-di": "dev-master"
     },
     "license": "MIT",
     "authors": [
@@ -13,5 +15,10 @@
             "email": "info@sillevl.be"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
 }
