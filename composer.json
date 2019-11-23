@@ -1,15 +1,3 @@
-# slim4-database-example
-
-Create a new  project using composer. Add the following dependencies:
-
-* `slim/slim`
-* `slim/psr7`
-
-```bash
-composer init
-```
-
-```json
 {
     "name": "sillevl/slim-database-example",
     "description": "Slim 4 application that shows how to use a database with Eloquent",
@@ -27,4 +15,3 @@ composer init
     ],
     "minimum-stability": "dev"
 }
-```
