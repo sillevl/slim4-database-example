@@ -6,7 +6,8 @@
         "slim/slim": "4.x-dev",
         "slim/psr7": "dev-master",
         "illuminate/database": "^7.0@dev",
-        "php-di/php-di": "dev-master"
+        "php-di/php-di": "dev-master",
+        "robmorgan/phinx": "dev-master"
     },
     "license": "MIT",
     "authors": [
