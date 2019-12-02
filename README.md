@@ -28,3 +28,26 @@ composer init
     "minimum-stability": "dev"
 }
 ```
+
+
+## Database Migrations
+
+Setup configuration in `.env` file.
+
+Create the database
+
+```bash
+vendor\bin\phinx migrate
+```
+
+Add initial values to the database
+
+```bash
+vendor\bin\phinx seed:run
+```
+
+Reset the database
+
+```bash
+vendor\bin\phinx rollback
+```
