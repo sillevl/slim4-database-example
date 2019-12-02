@@ -29,7 +29,6 @@ composer init
 }
 ```
 
-
 ## Database Migrations
 
 Setup configuration in `.env` file.
