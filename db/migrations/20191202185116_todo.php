@@ -32,10 +32,10 @@ class Todo extends AbstractMigration
     public function change()
     {
         $table = $this->table('todo_items');
-        $table->addColumn('title', 'char',  ['limit' => 64])
+        $table->addColumn('title', 'char', ['limit' => 64])
               ->addColumn('description', 'text')
             //   ->addColumn('duedate', 'datetime')
-              ->addColumn('done', 'boolean')
+              ->addColumn('state', 'boolean')
               ->addColumn('created_at', 'datetime')
               ->addColumn('updated_at', 'datetime')
               ->create();

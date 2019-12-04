@@ -19,35 +19,35 @@ class TodoItems extends AbstractSeed
             [
                 'title' => 'Get bread',
                 'description' => 'Need to ge bread for dinner',
-                'done' => true,
+                'state' => true,
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ],
             [
                 'title' => 'Study Web Applications',
                 'description' => 'Need to study REST api\'s in Slim framework',
-                'done' => false,
+                'state' => false,
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ],
             [
                 'title' => 'Feed the cat',
                 'description' => 'cat needs food',
-                'done' => false,
+                'state' => false,
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ],
             [
                 'title' => 'Watch Rick and Morty',
                 'description' => 'New season is out! woot!',
-                'done' => false,
+                'state' => false,
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ],
             [
                 'title' => 'Wake up today',
                 'description' => 'First things first',
-                'done' => true,
+                'state' => true,
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ]
